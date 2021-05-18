@@ -8,7 +8,7 @@ them, and where they should be displayed.
 The logical display: Game objects are displayed on the logical display, which is called the ObjectDisplayGrid in my code. It
 manages the displayable objects at each location in the ascii display, and sends the character
 corresponding to each visible object to the ascii display. It also receives keyboard input, and is
-implements the Subject role in the Observer pattern, which we will learn about.
+implements the Subject role in the Observer pattern.
 The logical display has 5 areas.
 A top message area, where the remaining hit points and the score are displayed. The number of lines in
 this top area is given in the XML file.
