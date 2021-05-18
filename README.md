@@ -150,24 +150,41 @@ a character must be used for displaying messages in the top and bottom message d
 A summary of commands:
 These have been discussed above. This section exists to get all of the commands that are input by the
 user of the game in one section.
+  
 Commands processed by the dungeon:
+  
 ?: help. Lists all commands in this section, but only gives the letter, not information about what the
 command does, e.g. “h,l,k,j,i,?,H,c,d,p,R,T,w,E,0-9. H <cmd> for more info”
+  
 H <next input character>: <next input character> is a command. H gives more detailed information
 about the command.
+  
 E <next input character>: If <next input character> is a ‘Y’ or ‘y’, the game is ended. If it is any other
 character, the game continues.
+  
 Move commands, processed by the Player and code needing to count moves.
 Move commands are the vi/vim navigation keys.
+  
 h: move left 1 space.
+  
 l: move right 1 space. Note that this is a lower case el, l, not an upper case i.
+  
 k: move up 1 space
+  
 j: move down 1 space
+  
 Move commands, processed by the Player
+  
 i: inventory -- show pack contents
+  
 c: take off/change armor
+  
 d: drop <item number> item from pack";
+  
 p: pick up item under player and put into the pack";
+  
 r <item in pack number>: read the scroll which is item number <item in pack number> in pack
+  
 t: take out weapon from pack
+  
 w: take out the armor which is item number <item number in pack> in the pack and put it on.
